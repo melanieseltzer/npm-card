@@ -1,21 +1,20 @@
 {
-  "name": "@bnb/card",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "melanieseltzer",
+  "version": "1.0.0",
+  "description": "A personal card for Melanie Seltzer (@melanieseltzer)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "melanieseltzer": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/melanieseltzer/npm-card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://www.melanieseltzer.com",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -26,22 +25,17 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Melanie Seltzer <melleh11@gmail.com> (https://www.melanieseltzer.com)",
   "license": "MIT",
   "files": [
     "bin/card.js",
     "bin/output"
   ],
   "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
-  },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "url": "https://github.com/melanieseltzer/npm-card/issues"
   }
 }
